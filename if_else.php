@@ -10,7 +10,7 @@
     //     echo "False";
     // }
 
-    $day = 'Tuesday';
+   /* $day = 'Tuesday';
 
     if($day == 'Friday'){
         echo 'Its weekdays';
@@ -18,6 +18,15 @@
         echo 'Its weekend';
     }else{
         echo 'its not weekend as well not Friday';
+    } */
+
+    $mango = "yellow";
+    $size = "big";
+
+    if($mango == "green" && $size == "big"){
+        echo "True";
+    }else{
+        echo "False";
     }
 
 ?>
