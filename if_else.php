@@ -20,13 +20,22 @@
         echo 'its not weekend as well not Friday';
     } */
 
-    $mango = "yellow";
-    $size = "big";
+    // $salary = 10000;
 
-    if($mango == "green" && $size == "big"){
-        echo "True";
+    // if($salary <= 9000){
+    //     echo "Damn your poor";
+    // }else{
+    //     echo "Still poor";
+    // }
+
+    $age = 18;
+
+    if($age < 18){
+        echo 'Child';
     }else{
-        echo "False";
+        echo 'Adult';
     }
+
+
 
 ?>
