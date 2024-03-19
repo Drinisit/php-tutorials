@@ -1,6 +1,6 @@
 <?php
-
-$text = "Hello";
+    $x = 11;
+    $text = "Hello";
     $num = 27;
     $float = 5.6;
     $boolean = true;
@@ -20,8 +20,14 @@ $text = "Hello";
 //     echo "Eto ay pang ". $i. "<br/>";
 // }
 
-foreach($data_types as $values){
-    echo $values."<br/>";
-}
+// foreach($data_types as $values){
+//     echo $values."<br/>";
+// }
+
+    // $cars = ['honda', 'toyota','suzuki'];
+
+    // foreach($cars as $brands){
+    //     echo $brands."<br/>";
+    // }
 
 ?>
