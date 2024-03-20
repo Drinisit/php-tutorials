@@ -9,7 +9,13 @@
 
    $num = [1,2,4,6,7,5,10,8,9,3];
    rsort($num);
-   print_r($num);
+
+   if(in_array("toyotas", $brands)){
+      echo "There is toyota";
+   }else{
+      echo "Out of stock";
+   }
+
  
    // $total = count($brands);
 
