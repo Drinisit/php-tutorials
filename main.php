@@ -1,9 +1,12 @@
 <?php
 
-    include_once("function.php");
+    include_once("class.php");
 
-    echo Auto('bmw', 100000);
+    $tao = new person;
 
+    $tao->set_name("Aldrin");
+
+    echo $tao->get_name();
 
 
 ?>
