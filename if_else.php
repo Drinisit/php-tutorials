@@ -84,13 +84,19 @@
 </head>
 <body>
     <?php
-        $shape = "circle";
+        $shape = "circl";
 
-        if($shape == "circle"){
-            echo "<div class='circle'></div>";
-        }else{
-            echo "<div class='square'></div>";
-        }
+        // if($shape == "circle"){
+        //     echo "<div class='circle'></div>";
+        // }else{
+        //     echo "<div class='square'></div>";
+        // }
+
+       $hugis = ($shape=='circle') ? "<div class='circle'></div>" : "<div class='square'></div>";
+
+        echo $hugis;
+
+
     ?>
     
     
