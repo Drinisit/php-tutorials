@@ -28,14 +28,71 @@
     //     echo "Still poor";
     // }
 
-    $age = 18;
+    // $age = 18;
 
-    if($age < 18){
-        echo 'Child';
-    }else{
-        echo 'Adult';
-    }
+    // if($age < 18){
+    //     echo 'Child';
+    // }else{
+    //     echo 'Adult';
+    // }
+
+    // $bool = true;
+    // $x = 1;
+    // $y = 4;
+
+    // if($x < $y && !$bool){
+    //     echo "First condition is true";
+    // }elseif($x < $y && $bool){
+    //     echo "The Second condition is true";
+    // }else{
+    //     echo "None of the condition is true";
+    // }
+
+    // $x = 10;
+
+    // $y = $x < 6 ? "True" : "False";
+
+    // echo $y;
 
 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .square{
+            width: 10px;
+            height: 10px;
+            background-color: black;
+        }
+
+        .circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <?php
+        $shape = "circle";
+
+        if($shape == "circle"){
+            echo "<div class='circle'></div>";
+        }else{
+            echo "<div class='square'></div>";
+        }
+    ?>
+    
+    
+</body>
+</html>
