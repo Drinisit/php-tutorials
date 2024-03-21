@@ -19,6 +19,16 @@
         }
     }
 
+    function my_greeting($fname, $lname){ 
+        echo "Goodmorning $fname $lname";
+    }
+
+   function sum($num1, $num2){
+    return $num1 + $num2;
+   }
+
+   echo sum(3,5);
+
     
 
     // echo "<br/>";
