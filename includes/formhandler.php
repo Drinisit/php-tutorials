@@ -8,6 +8,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $lastname = htmlspecialchars($_POST["lastname"]);
     $car = htmlspecialchars($_POST["car"]);
 
+    if(empty($firstname)){
+        exit();
+        header("Location: ../index.php");
+    }
     echo "These are the date, that user submitted";
     echo "<br />";
     echo $firstname;
@@ -16,4 +20,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     echo "<br />";
     echo $car;
 
+    
+    header("Location: ../index.php");
+}else{
+    header("Location: ../index.php");
 }
