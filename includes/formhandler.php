@@ -21,7 +21,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     echo $car;
 
     
-    header("Location: ../index.php");
-}else{
-    header("Location: ../index.php");
 }

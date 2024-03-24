@@ -1,5 +1,14 @@
 <?php
 
+
+    $bool = true;
+    $a = 1;
+    $b = 4;
+
+    if($a < $b){
+        echo $a . " is less than ". $b;
+    }
+
     // $num = 10;
     // $num2 = 5;
     // $num3 = 5.2;
