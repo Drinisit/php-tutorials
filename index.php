@@ -11,16 +11,22 @@
     <?php echo "This is also a paragraph"; ?>
 
     <br/>
+    <br/>
 
 
     <?php
 
-        $firstName = "Ade";
-        $age = 27;
+    $_SESSION["username"] = "Ade";
+    echo $_SESSION["username"];
 
-       var_dump($age);
+   
 
-    ?>  
+    //     $firstName = "Ade";
+    //     $age = 27;
+
+    // ?>  
+
+    <!-- // <p> Hi my name is <?php  echo $firstName; ?></p> -->
 
 </body>
 </html>
