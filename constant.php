@@ -8,6 +8,8 @@
 <body>
     <?php
 
+    //constant can use inside a function
+
         define("PI", 3.14);
         define("NAME", "ADE");
 
