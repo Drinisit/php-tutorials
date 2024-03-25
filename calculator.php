@@ -26,13 +26,13 @@
         $operator = htmlspecialchars($_POST["operator"]);
 
         $errors = false;
-
+        //to check if the fields have input in it
         if(empty($num01) || empty($num02) || empty($operator)){
             echo "fill in all fields";
             echo "<br>";
             $errors = true;
         }
-
+        //to check if the input is number or has string inside
         if(!is_numeric($num01)  || !is_numeric($num02)){
             echo "only numbers!";
             $errors = true;

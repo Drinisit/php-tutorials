@@ -1,20 +1,81 @@
 <?php
 
-   $brands = array("honda", "toyota","suzuki","ford","nissan");
 
-   // echo $brands[2];
+$food = [
+   "fruits" => array("apple","banana","cherry"),
+   "meat" => array("chicken","fish","pork"),
+   "vegetables" => array("carrot","potato"),
+];
 
-   $users = ['john', 'dave', 'tim'];
+echo $food["vegetables"][0];
 
 
-   $num = [1,2,4,6,7,5,10,8,9,3];
-   rsort($num);
 
-   if(in_array("toyotas", $brands)){
-      echo "There is toyota";
-   }else{
-      echo "Out of stock";
-   }
+
+// $brands = ["honda", "toyota","suzuki","ford","nissan"];
+// $phone =["mi", "iphone","samsung"];
+
+// array_splice($brands, 3, 0, $phone);
+
+// echo print_r($brands);
+
+
+//   $task = [
+//   "laundry" => "Daniel",
+//   "dishes" => "Frida",
+//   "vacuum" => "Mike",
+//   "sweeping" => "Messy"
+//   ];
+
+
+
+//   $task["sleeping"] = "Ade";
+
+//   echo print_r($task);
+
+//   $total = count($task);
+
+
+//   echo $task["sweeping"];
+
+//   foreach($task as $gawain){
+//    echo $gawain;
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // $brands = array("honda", "toyota","suzuki","ford","nissan");
+
+   // // echo $brands[2];
+
+   // $users = ['john', 'dave', 'tim'];
+
+
+   // $num = [1,2,4,6,7,5,10,8,9,3];
+   // rsort($num);
+
+   // if(in_array("toyotas", $brands)){
+   //    echo "There is toyota";
+   // }else{
+   //    echo "Out of stock";
+   // }
 
  
    // $total = count($brands);
