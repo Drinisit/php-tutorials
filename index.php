@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    
 
-   <main>
+   <!-- <main>
 
     <form action="includes/formhandler.php" method="post">
             <label for="firstname">First name:</label>
@@ -24,7 +25,7 @@
             </select>
             <button type="submit">Submit</button>
     </form>
-   </main>
+   </main> -->
 
 </body>
 </html>
