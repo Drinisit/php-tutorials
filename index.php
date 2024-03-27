@@ -15,7 +15,15 @@
         <input type="text" name="username" placeholder="Username"><br>
         <input type="password" name="pwd" placeholder="Password"><br>
         <input type="text" name="email" placeholder="Email"><br>
-        <button>Update User</button>
+        <button>Update</button>
+    </form>
+    <br>
+    <br>
+    <h3>Delete account</h3>
+    <form action="includes/userdelete.inc.php" method="post">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="pwd" placeholder="Password"><br>
+        <button>Delete</button>
     </form>
     <br>
     <br>
