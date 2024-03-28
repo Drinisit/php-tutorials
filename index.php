@@ -10,6 +10,15 @@
 
     <main>
 
+    <h3>Search account</h3>
+    <form class="searchfrom" action="search.php" method="post">
+        <label for="search"> Search for user:</label>
+        <input id="search" type="text" name="usersearch" placeholder="search..."><br>
+    
+        <button>Search</button>
+    </form>
+    <br>
+    <br>
     <h3>Update account</h3>
     <form action="includes/userupdate.inc.php" method="post">
         <input type="text" name="username" placeholder="Username"><br>
