@@ -1,3 +1,56 @@
+<?php
+
+    $x = 10;
+    $brands = ['honda', 'toyota', 'nissan'];
+
+    // while( $x <= 10){
+    //     echo "This is number $x <br/> " ;
+    //     $x++;
+    // }
+
+    // do{
+    //     echo "This is the number $x <br>";
+    //     $x++;
+    // }while($x > 10);
+
+    for($i = 1; $i < $x; $i++){
+        echo "This is the number $i <br/>";
+    }
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,8 +61,37 @@
 </head>
 <body>
 
-
     <main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 
     <h3>Search account</h3>
     <form class="searchfrom" action="search.php" method="post">
