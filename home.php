@@ -10,8 +10,6 @@
     }else{
         echo "<h3> Hello $firstName $lastName Your $email is Invalid<h3/>";
     }
-
-    echo "<h3> Hello $firstName $lastName <h3/>";
  }
 
  ?>
