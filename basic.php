@@ -1,4 +1,7 @@
 <?php
+
+// print_r(PDO::getAvailableDrivers());
+
 // $x = 5;
 
 // for($i = 1; $i <= $x ; $i++){
@@ -29,13 +32,13 @@
 
 // echo "The sum of the numbers 0 to 30 is $sum" . "\n";
 
-for($i = 1; $i <= 5; $i++){
-    for($a =1; $a <= $i; $a++){
-        echo "*";
+// for($i = 1; $i <= 5; $i++){
+//     for($a =1; $a <= $i; $a++){
+//         echo "*";
 
-        if($a < $i){
-            echo " ";
-        }
-    }
-    echo "<br>";
-}
+//         if($a < $i){
+//             echo " ";
+//         }
+//     }
+//     echo "<br>";
+// }
