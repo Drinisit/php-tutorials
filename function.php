@@ -27,7 +27,14 @@
     return $num1 + $num2;
    }
 
-   echo sum(3,5);
+  // echo sum(3,5);
+
+
+   function sub($num1, $num2){
+    return $num1 - $num2;
+   }
+
+   echo sub(10,5);
 
     
 
