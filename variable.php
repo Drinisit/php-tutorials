@@ -16,6 +16,9 @@
 
     echo $add;
 
+    $greet = "Hello";
+    echo   $greet;
+
     ?>
 
 </body>
