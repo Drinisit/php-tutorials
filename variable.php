@@ -19,7 +19,12 @@
     $greet = "Hello";
     echo   $greet;
 
+    $firstName = "Aldrin";
+    $lastName = "Isit";
+
     ?>
+
+    <p>Hello <?php echo $firstName. " " . $lastName?></p>
 
 </body>
 </html>
