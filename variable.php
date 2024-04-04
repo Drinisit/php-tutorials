@@ -22,6 +22,10 @@
     $firstName = "Aldrin";
     $lastName = "Isit";
 
+    define('ADE', 'jay');
+
+    echo ADE;
+
     ?>
 
     <p>Hello <?php echo $firstName. " " . $lastName?></p>
