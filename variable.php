@@ -9,26 +9,39 @@
     
     <?php
 
-    $num1 = 1;
-    $num2 = 3;
+    //Variable Variables
 
-    $add = $num1 + $num2;
+    //variable foo is equal to bar
+    $foo = 'bar';
+    //variable variable foo now is equal to bar = to baz
+    $$foo = 'baz';
 
-    echo $add;
+    echo $foo, $bar;
 
-    $greet = "Hello";
-    echo   $greet;
+    // $num1 = 1;
+    // $num2 = 3;
 
-    $firstName = "Aldrin";
-    $lastName = "Isit";
+    // $add = $num1 + $num2;
 
-    define('ADE', 'jay');
+    // echo $add;
 
-    echo ADE;
+    // $greet = "Hello";
+    // echo   $greet;
+
+    // $firstName = "Aldrin";
+    // $lastName = "Isit";
+
+    // define('ADE', 'jay');
+
+    // echo ADE;
+
+    // const FULL_NAME = "Drinz";
+
+    // echo FULL_NAME;
 
     ?>
 
-    <p>Hello <?php echo $firstName. " " . $lastName?></p>
+    <!-- <p>Hello <?php //echo $firstName. " " . $lastName?></p> -->
 
 </body>
 </html>
