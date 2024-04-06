@@ -3,7 +3,12 @@
 $x = 10;
 $y = 4;
 
-$z = $x + $y;
+var_dump($x != $y);
+var_dump($x !== $y);
 
-echo $z;
+// $z = $x + $y;
+
+// echo $z;
+
+
 
