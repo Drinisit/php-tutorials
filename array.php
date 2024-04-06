@@ -1,13 +1,15 @@
 <?php
 
 
-$food = [
-   "fruits" => array("apple","banana","cherry"),
-   "meat" => array("chicken","fish","pork"),
-   "vegetables" => array("carrot","potato"),
-];
 
-echo $food["vegetables"][0];
+
+// $food = [
+//    "fruits" => array("apple","banana","cherry"),
+//    "meat" => array("chicken","fish","pork"),
+//    "vegetables" => array("carrot","potato"),
+// ];
+
+// echo $food["vegetables"][0];
 
 
 
