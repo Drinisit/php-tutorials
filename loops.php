@@ -3,10 +3,35 @@
 //while
 
 
-$i = 0;
+// $i = 0;
 
-while ($i <= 15){
-    echo $i++ . "<br>";
-}
+// while ($i <= 15){
+//     echo $i++ . "<br>";
+// }
 
 //do-while
+
+
+//for
+
+// $text = 'Hello world';
+
+
+//count can return the number of array
+$text = ['a','b','c','d'];
+
+
+
+$lenght = count($text);
+
+for($i = 0; $i < $lenght; $i++){
+    echo $text[$i] . "<br>";
+    
+}
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+//foreach
