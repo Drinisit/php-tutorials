@@ -17,6 +17,16 @@ function sum(...$numbers): int | float{
     return $sum;
 }
 
-echo sum( 50, 100,67);
+echo sum( 50, 100,67). "<br>";
 
+
+
+function foo(int $x, int $y): int |float {
+    if($x % $y == 0){
+        return $x / $y;
+    }
+    return $x;
+}
+
+echo foo( 4, 5);
 // echo foo(3.5,5);
