@@ -28,5 +28,8 @@ function foo(int $x, int $y): int |float {
     return $x;
 }
 
-echo foo( 4, 5);
+$x = 6;
+$y = 3;
+
+echo foo( x: $x, y: $y);
 // echo foo(3.5,5);
