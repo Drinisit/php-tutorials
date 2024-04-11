@@ -12,4 +12,12 @@ $total = array_reduce(
     $invoiceItems, fn($sum, $item) =>$sum + $item['qty'] * $item['price'],500
 );
 
-echo $total;
+echo $total. "<br>";
+
+
+//array search
+$array = ['a','b','c', 'D','E','F','ab','cd'];
+
+$key = array_search('D',$array);
+
+var_dump($key);
