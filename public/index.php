@@ -9,6 +9,7 @@ define('FILES_PATH', $root . 'transaction_files' . DIRECTORY_SEPARATOR);
 define('VIEW_PATH', $root . 'views' . DIRECTORY_SEPARATOR);
 
 require APP_PATH . "app.php";
+require APP_PATH . 'helpers.php';
 
 $files = getTransactionFiles(FILES_PATH);
 
