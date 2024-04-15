@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 class Transaction{
-    public float $amount;
-    public string $description;
+    private float $amount;
+    private string $description;
 
     public function __construct(float $amount, string $description){
         $this->amount = $amount;
@@ -18,4 +18,9 @@ class Transaction{
     public function applyDiscount(float $rate){
         $this->amount -= $this->amount * $rate/100;
     }
+
+    public function getAmount(): float{
+        return $this->amount;
+    }
+
 }
