@@ -25,4 +25,8 @@ class Transaction{
         return $this->amount;
     }
 
+    public function __destruct(){
+        echo 'Destruct ' . $this->description . '<br>';
+    }
+
 }
