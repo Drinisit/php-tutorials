@@ -23,8 +23,8 @@
         echo "Goodmorning $fname $lname";
     }
 
-   function sum($num1, $num2){
-    return $num1 + $num2;
+   function sum($num3, $num4){
+    return $num3 + $num4;
    }
 
   // echo sum(3,5);
