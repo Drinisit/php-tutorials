@@ -34,6 +34,16 @@
     return $num1 - $num2;
    }
 
+   function multi($num1, $num2){
+    return $num1 * $num2;
+   }
+
+   function division($number1, $number2){
+    return $number1 / $number2;
+   }
+
+
+
    echo sub(10,5);
 
     
