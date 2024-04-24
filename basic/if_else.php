@@ -1,12 +1,24 @@
 <?php
 
 
-    $bool = true;
-    $a = 1;
-    $b = 4;
+    // $bool = true;
+    // $a = 1;
+    // $b = 4;
 
-    if($a < $b){
-        echo $a . " is less than ". $b;
+    // if($a < $b){
+    //     echo $a . " is less than ". $b;
+    // }
+
+
+    $c = 22;
+    $d = 10;
+
+    if($c > $d){
+        echo $c + $d;
+    }elseif($c < $d){
+        echo $c - $d;
+    }else{
+        echo "error";
     }
 
     // $num = 10;
