@@ -10,8 +10,13 @@
     <?php
 
 
+function add($num, $num1){
+    return $sum = $num + $num1;
+}
 
-    echo time();
+echo add(5,3);  
+
+    // echo time();
 
 
     // $fruit = ["apple", "banana", "cherry"];
