@@ -10,20 +10,20 @@
     <?php
 
 
-function add($num, $num1){
-    return $sum = $num + $num1;
-}
+// function add($num, $num1){
+//     return $sum = $num + $num1;
+// }
 
-echo add(5,3);  
+// echo add(5,3);  
 
     // echo time();
 
 
-    // $fruit = ["apple", "banana", "cherry"];
+    $fruit = ["apple", "banana", "cherry","mango"];
 
-    // array_push($fruit, "tomato");
+    array_push($fruit, "tomato");
 
-    // print_r($fruit);
+    print_r($fruit);
 
     // $num = -5.5;
 
