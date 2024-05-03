@@ -18,7 +18,7 @@
 
 
 //count can return the number of array
-$text = ['a','b','c','d','e','f'];
+$text = ['a','b','c','d','e','f','g'];
 
 
 
