@@ -36,7 +36,7 @@ echo "<br>";
 
 //foreach
 
-$programmingLanguage = ['Javascript', 'C++', 'Python','Cobol','Rust', 'PHP', "JAVA"];
+$programmingLanguage = ['Javascript', 'C++', 'Python','Cobol','Rust', 'PHP', "JAVA","C#"];
 
 foreach($programmingLanguage as $key => $pl){
     echo $key . ": ". $pl. "<br>";
